@@ -39,6 +39,7 @@ function incrementCounter(){
     });
         }
 //comment
+//comment2
 console.log("INC");
     return(
 <>
