@@ -38,7 +38,7 @@ function incrementCounter(){
         return prevState + 1 
     });
         }
-
+//comment
 console.log("INC");
     return(
 <>
