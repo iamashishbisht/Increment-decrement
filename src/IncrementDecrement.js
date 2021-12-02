@@ -35,7 +35,7 @@ function incrementCounter(){
     function decrementCounter(){
 
         setState(prevState=> {
-        return prevState + 1 
+        return prevState - 1 
     });
         }
 
