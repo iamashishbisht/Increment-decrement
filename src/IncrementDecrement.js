@@ -32,6 +32,13 @@ function incrementCounter(){
 });
     }
 
+    function decrementCounter(){
+
+        setState(prevState=> {
+        return prevState + 1 
+    });
+        }
+
 console.log("INC");
     return(
 <>
@@ -39,7 +46,7 @@ console.log("INC");
 }
 <button onClick= {incrementCounter}>+</button>
 {state}
-<button>-</button>
+<button onClick= {decrementCounter}>-</button>
 </>
 
     );
